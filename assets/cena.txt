@@ -1,0 +1,9 @@
+# Arquivo de Configuracao da Cena
+# Formato: 
+# Caminho_do_OBJ | PosX PosY PosZ | EscalaX EscalaY EscalaZ | RotX RotY RotZ
+
+# Macaco da Esquerda
+../assets/Modelos3D/Suzanne.obj -2.5 0.0 0.0 1.0 1.0 1.0 0.0 0.0 0.0
+
+# Macaco da Direita (Rotacionado 45 graus no eixo Y e um pouco maior)
+../assets/Modelos3D/Suzanne.obj 2.5 0.0 0.0 1.5 1.5 1.5 0.0 45.0 0.0

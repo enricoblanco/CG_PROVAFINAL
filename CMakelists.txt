@@ -1,0 +1,49 @@
+cmake_minimum_required(VERSION 3.10)
+project(CG_ProvaFinal)
+
+# Define o padrão do C++
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# Ativa o FetchContent para dependências
+include(FetchContent)
+
+# GLFW
+FetchContent_Declare(glfw GIT_REPOSITORY https://github.com/glfw/glfw.git GIT_TAG 3.4)
+# GLM
+FetchContent_Declare(glm GIT_REPOSITORY https://github.com/g-truc/glm.git GIT_TAG master)
+# STB_IMAGE
+FetchContent_Declare(stb_image GIT_REPOSITORY https://github.com/nothings/stb.git GIT_TAG master)
+
+# Baixa tudo
+FetchContent_MakeAvailable(glfw glm stb_image)
+
+# Adiciona as pastas de cabeçalhos
+include_directories(${CMAKE_SOURCE_DIR}/include)
+include_directories(${CMAKE_SOURCE_DIR}/Common)
+include_directories(${CMAKE_SOURCE_DIR}/include/glad)
+include_directories(${glm_SOURCE_DIR})
+include_directories(${stb_image_SOURCE_DIR})
+
+add_compile_options(-Wno-pragmas)
+
+# Define as bibliotecas OpenGL (Focado no seu Mac, mas seguro para Windows)
+if(APPLE)
+    find_library(OpenGL_LIBRARY OpenGL)
+    set(OPENGL_LIBS ${OpenGL_LIBRARY})
+elseif(WIN32)
+    set(OPENGL_LIBS opengl32)
+else()
+    find_package(OpenGL REQUIRED)
+    set(OPENGL_LIBS ${OPENGL_gl_LIBRARY})
+endif()
+
+# Define o executável final (Apenas UM projeto)
+set(GLAD_C_FILE "${CMAKE_SOURCE_DIR}/Common/glad.c")
+
+# Aqui dizemos que o código fonte principal vai estar em src/main.cpp
+add_executable(VisualizadorFinal src/main.cpp ${GLAD_C_FILE})
+
+# Linka as bibliotecas
+target_include_directories(VisualizadorFinal PRIVATE ${CMAKE_SOURCE_DIR}/include/glad ${glm_SOURCE_DIR} ${stb_image_SOURCE_DIR})
+target_link_libraries(VisualizadorFinal glfw ${OPENGL_LIBS})

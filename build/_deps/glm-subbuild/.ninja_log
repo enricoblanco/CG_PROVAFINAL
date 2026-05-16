@@ -1,0 +1,21 @@
+# ninja log v6
+0	13	1778942407295331992	glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir	2bf211f5ec343214
+0	13	1778942407295331992	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-mkdir	2bf211f5ec343214
+14	10662	1778942417943246570	glm-populate-prefix/src/glm-populate-stamp/glm-populate-download	780e160cc18d9d9b
+14	10662	1778942417943246570	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-download	780e160cc18d9d9b
+10662	11339	1778942417943920788	glm-populate-prefix/src/glm-populate-stamp/glm-populate-update	885fca3f3f652fc0
+10662	11339	1778942417943920788	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-update	885fca3f3f652fc0
+11339	11357	1778942418638245067	glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	cac438455381001
+11339	11357	1778942418638245067	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-patch	cac438455381001
+11357	11373	1778942418654351294	glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	f624d1565a67f84b
+11357	11373	1778942418654351294	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-configure	f624d1565a67f84b
+11373	11386	1778942418667348753	glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	d083b5d9a0942c74
+11373	11386	1778942418667348753	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-build	d083b5d9a0942c74
+11386	11399	1778942418680373377	glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	9e7d15df7eb75d13
+11386	11399	1778942418680373377	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-install	9e7d15df7eb75d13
+11399	11412	1778942418693413292	glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	a42303725b25cf43
+11399	11412	1778942418693413292	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-test	a42303725b25cf43
+11412	11431	1778942418711810867	CMakeFiles/glm-populate-complete	11b2514767f74f31
+11412	11431	1778942418711810867	glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	11b2514767f74f31
+11412	11431	1778942418711810867	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/glm-subbuild/CMakeFiles/glm-populate-complete	11b2514767f74f31
+11412	11431	1778942418711810867	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/glm-populate-done	11b2514767f74f31

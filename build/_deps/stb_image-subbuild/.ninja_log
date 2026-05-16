@@ -1,0 +1,21 @@
+# ninja log v6
+1	16	1778942418877648403	stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-mkdir	f2e13810366d1636
+1	16	1778942418877648403	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-mkdir	f2e13810366d1636
+16	1608	1778942420468569122	stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-download	d1ecea172ae3c047
+16	1608	1778942420468569122	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-download	d1ecea172ae3c047
+1608	2232	1778942420469253255	stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-update	56effdfb1b7e6a58
+1608	2232	1778942420469253255	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-update	56effdfb1b7e6a58
+2232	2248	1778942421109027654	stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-patch	57265139af0eea9f
+2232	2248	1778942421109027654	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-patch	57265139af0eea9f
+2248	2263	1778942421124178218	stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-configure	639d014b8250f589
+2248	2263	1778942421124178218	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-configure	639d014b8250f589
+2263	2280	1778942421141057324	stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-build	9784d394f7ea5eca
+2263	2280	1778942421141057324	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-build	9784d394f7ea5eca
+2280	2295	1778942421155843447	stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-install	644a6be44101091f
+2280	2295	1778942421155843447	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-install	644a6be44101091f
+2295	2311	1778942421171738184	stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-test	39171bf2cb728b1
+2295	2311	1778942421171738184	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-test	39171bf2cb728b1
+2311	2332	1778942421193128532	CMakeFiles/stb_image-populate-complete	bccde05d93755ddc
+2311	2332	1778942421193128532	stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-done	bccde05d93755ddc
+2311	2332	1778942421193128532	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/stb_image-subbuild/CMakeFiles/stb_image-populate-complete	bccde05d93755ddc
+2311	2332	1778942421193128532	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/stb_image-subbuild/stb_image-populate-prefix/src/stb_image-populate-stamp/stb_image-populate-done	bccde05d93755ddc

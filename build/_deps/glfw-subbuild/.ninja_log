@@ -1,0 +1,21 @@
+# ninja log v6
+0	14	1778942403171829696	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir	657a70ed2144707e
+0	14	1778942403171829696	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir	657a70ed2144707e
+14	3741	1778942406898804578	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download	307abb1e73812db4
+14	3741	1778942406898804578	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download	307abb1e73812db4
+3741	3782	1778942406899271847	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update	3ead0fbde52d546e
+3741	3782	1778942406899271847	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update	3ead0fbde52d546e
+3782	3796	1778942406953803728	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch	406857aa5c724774
+3782	3796	1778942406953803728	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch	406857aa5c724774
+3796	3815	1778942406972563077	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure	2d9a2cc2ec1636f5
+3796	3815	1778942406972563077	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure	2d9a2cc2ec1636f5
+3815	3829	1778942406986808685	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build	89522e6a2f0fb83
+3815	3829	1778942406986808685	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build	89522e6a2f0fb83
+3829	3842	1778942406999799852	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install	34c629a8ea88927f
+3829	3842	1778942406999799852	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install	34c629a8ea88927f
+3842	3855	1778942407012591405	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test	53fc60f6ce4d3ddb
+3842	3855	1778942407012591405	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test	53fc60f6ce4d3ddb
+3855	3873	1778942407030378092	CMakeFiles/glfw-populate-complete	d31744e2755099ee
+3855	3873	1778942407030378092	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-done	d31744e2755099ee
+3855	3873	1778942407030378092	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate-complete	d31744e2755099ee
+3855	3873	1778942407030378092	/Users/enricoblanco/Documents/projetos/CG_ProvaFinal/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-done	d31744e2755099ee
